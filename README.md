@@ -24,7 +24,7 @@ The project is implemented as a single Jupyter notebook (`main.ipynb`) that trai
 
 ---
 
-## 🚀 What this project does
+## What this project does
 
 - Implements **Q-learning** and **SARSA** agents for the `Acrobot-v1` environment.
 - Uses **state discretization** to convert continuous observations into a discrete state space.
@@ -33,7 +33,7 @@ The project is implemented as a single Jupyter notebook (`main.ipynb`) that trai
 
 ---
 
-## 🧰 Getting started
+## Getting started
 
 ### 1) Clone the repo
 
@@ -80,11 +80,4 @@ Then run all cells in order. The notebook will:
 3. Plot learning curves with confidence intervals
 4. Generate GIFs of the learned policies (`sarsa_acrobot.gif`, `qlearning_acrobot.gif`)
 
----
-
-## 📁 Important files
-
-- `main.ipynb` – Core implementation (training loop, evaluation, plotting, GIF export)
-- `sarsa_acrobot.gif` – Example output (SARSA policy rollout)
-- `qlearning_acrobot.gif` – Example output (Q-learning policy rollout)
 
